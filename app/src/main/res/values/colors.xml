@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="colorPrimary">#2B7CF3</color>
+    <color name="colorPrimaryDark">#4364EB</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="backPrimary">#E0E0E0</color>
+    <color name="backSecondary">#ff9a00</color>
+    <color name="backTertiary">#ff4d00</color>
+
+    <color name="pureWhite">#FFFFFF</color>
+    <color name="greyishWhite">#C0C0C0</color>
+    <color name="greyishBlack">#404040</color>
+    <color name="dodgerBlue">#2B7CF3</color>
+    <color name="royalBlue">#4364EB</color>
+    <color name="turquoise">#46C7E7</color>
+    <color name="cornflower_blue">#4B6CF3</color>
+    <color name="greyishBlue">#CED8EE</color>
+
+    <color name="green">#00AA00</color>
+    <color name="daynight_textColor">#6CBABB</color>
+    <color name="switchColor">#911DEE</color>
+
+    <color name="mandiri_dark">#6B6C6E</color>
+    <color name="mandiri_darkblue">#254360</color>
+    <color name="mandiri_darkgreen">#437D7B</color>
+    <color name="mandiri_simpleblue">#497FAF</color>
+    <color name="mandiri_lightblue">#609FB5</color>
+    
+    <color name="mandiri_logo_darkgold">#F4B80C</color>
+    <color name="mandiri_logo_lightblue">#B8C1D8</color>
+    <color name="mandiri_blue">#193783</color>
+    <color name="mandiri_gold">#FADA05</color>
+
+</resources>

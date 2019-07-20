@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ProfileContent">
+
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:background="@color/mandiri_darkblue">
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true">
+                    <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/prof_man"/>
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Nama Saya Budi"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/pureWhite" android:fontFamily="@font/crete_round"/>
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+                    <LinearLayout
+                            android:background="@color/mandiri_blue"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:textAlignment="center"
+                            android:textColor="@color/pureWhite"
+                            android:orientation="vertical">
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Expense : "
+                                android:textSize="18sp"
+                                android:textColor="@color/pureWhite"/>
+                        <TextView
+                                android:id="@+id/expense_value"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="1,000,000  "
+                                android:gravity="right"
+                                android:textAlignment="gravity"
+                                android:textSize="18sp"
+                                android:textColor="@color/pureWhite"/>
+                    </LinearLayout>
+                    <LinearLayout
+                            android:background="@color/mandiri_simpleblue"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Balance : "
+                                android:textSize="18sp"
+                                android:textColor="@color/pureWhite"/>
+                        <TextView
+                                android:id="@+id/balance_value"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="200,000,000  "
+                                android:gravity="right"
+                                android:textAlignment="gravity"
+                                android:textSize="18sp"
+                                android:textColor="@color/pureWhite"/>
+                    </LinearLayout>
+                    <LinearLayout
+                            android:background="@color/mandiri_blue"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="Bonus : \n\n 1,000,000"
+                            android:textAlignment="center"
+                            android:textColor="@color/pureWhite"
+                            android:orientation="vertical">
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Game Token : "
+                                android:textSize="18sp"
+                                android:textColor="@color/pureWhite"/>
+                        <TextView
+                                android:id="@+id/token_value"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="300 "
+                                android:gravity="end"
+                                android:textAlignment="gravity"
+                                android:textSize="24sp"
+                                android:textColor="@color/pureWhite"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".HomeContent">
+    <LinearLayout
+            android:id="@+id/claw_game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/greyishBlue"
+            android:orientation="vertical"
+            android:padding="15dp">
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="204dp"
+                android:src="@drawable/claw_game"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="40sp"
+        android:text="Claw Game"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="20sp"
+        android:text="Play the game and win the amazing price"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
